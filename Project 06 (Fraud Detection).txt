@@ -1,0 +1,11 @@
+>Access JupyterLap http://34.126.160.212:8888/ Pass : de17
+>Access Database using DBeaver 
+host     : 34.126.160.212
+database : project6
+username : de17
+password : de17!#
+>Make Folder Producer, copy file into producer and custom producer send to our name (ezra) and makesure running as Producer
+>on Consumer, make connection on postgresql and setup kafkaconsumer  and setup table database send to table 'user_activity_ezra'
+>Make fraud detection on if data not 0 is not fraud
+>Load data model fraud.pkl 
+>Run model so predicted data status is fraud or whitelist write/save on table postgres 'user_fraud_ezra'
